@@ -1,0 +1,7 @@
+displayOrder,metricName,metricLabel,estimate,nRuns,role
+1,tau80_tau50,tau80/tau50,0.78452392578125,409600,primary marginal interval
+2,tau90_tau80,tau90/tau80,0.73160400390625,409600,primary marginal interval
+3,tau95_tau90,tau95/tau90,0.72080078125,409600,primary marginal interval
+4,kappa,kappa,0.79162353515625,409600,primary marginal interval
+5,eta90,eta90,0.84588134765625,409600,primary marginal interval
+6,mean_five,Mean across five indicators,0.77488671875,409600,mean of primary marginal intervals

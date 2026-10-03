@@ -1,0 +1,22 @@
+{
+  "source_mat": "../00_Dataset/standardized_dataset.mat",
+  "output_root": "outputs",
+  "reference_system": "E",
+  "reference_income_group": "High income",
+  "primary_pga": "avg_PGA",
+  "alternative_pga": [
+    "popWeightedPGA_g",
+    "popMeanPGA_g",
+    "pgaMedian_g",
+    "pgaMax_g"
+  ],
+  "pga_transform_sensitivity": "ln1p_pga_over_0p1",
+  "bootstrap_replicates": 2000,
+  "random_seed": 2.0260918E+7,
+  "small_d0_exclusion_quantiles": [
+    0.01,
+    0.05
+  ],
+  "bootstrap_checkpoint_interval": 100,
+  "primary_pga_transform": "raw"
+}

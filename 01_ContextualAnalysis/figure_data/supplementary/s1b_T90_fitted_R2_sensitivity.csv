@@ -1,0 +1,8 @@
+specification,label,family,record_count,earthquake_count,estimate,ci95_low,ci95_high,bootstrap_successes
+primary,Primary model,primary,951,187,0.46081402751492,0.337966663077672,0.599355962404132,2000
+popWeightedPGA_g,Population-weighted PGA,PGA summary,951,187,0.466467576342539,0.345153334265949,0.605213835255117,2000
+popMeanPGA_g,Mean PGA across populated cells,PGA summary,951,187,0.466451892187084,0.346843587910434,0.61307655752566,2000
+pgaMedian_g,Median PGA across populated cells,PGA summary,951,187,0.458162426344703,0.335738191639554,0.603071611352955,2000
+pgaMax_g,Maximum PGA across populated cells,PGA summary,951,187,0.451410426995597,0.329274524171605,0.599606356778977,2000
+ln1p_pga_over_0p1,ln[1 + PGA / (0.1 g)],PGA functional form,951,187,0.445984603280372,0.326179297322299,0.598800172057712,2000
+population_density,Population density,population measure,951,187,0.481995126368713,0.358951603376037,0.612124351110423,2000

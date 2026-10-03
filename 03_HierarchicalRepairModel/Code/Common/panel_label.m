@@ -1,0 +1,6 @@
+function panel_label(ax,labelText,fontSize)
+if nargin<3 || isempty(fontSize), fontSize=11; end
+text(ax,-0.12,1.06,labelText,'Units','normalized','FontWeight','bold', ...
+    'FontName','Arial','FontSize',fontSize,'HorizontalAlignment','left', ...
+    'VerticalAlignment','top','Clipping','off');
+end

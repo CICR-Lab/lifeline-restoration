@@ -1,0 +1,5 @@
+outcome,model,record_count,earthquake_count,outcome_scale,fitted_r2,r2_ci95_low,r2_ci95_high,delta_fitted_r2,delta_ci95_low,delta_ci95_high
+D0,system_and_context_full_D0_record_set,985,187,D0 original scale,0.339081413685678,0.274682130851162,0.451339291983946,NaN,NaN,NaN
+T90,system_and_context_full_T90_record_set,951,187,ln(T90),0.46081402751492,0.337966663077672,0.599355962404132,NaN,NaN,NaN
+T90,system_and_context_D0_aligned_T90_record_set,613,120,ln(T90),0.455101620657014,0.385373661642508,0.560326114039748,NaN,NaN,NaN
+T90,system_and_context_plus_D0_D0_aligned_T90_record_set,613,120,ln(T90),0.518452837354824,0.460683167547655,0.616430727670933,0.0633512166978105,0.0290095450133408,0.109904359288237

@@ -1,0 +1,16 @@
+module,responseCellID,responseAxis1ID,responseAxis2ID,responseAxis1Value,responseAxis2Value,responseAxis1Label,responseAxis2Label,outcomeName,nBackgrounds,nResponseScrambles,nBackgroundsPerScramble,nSeeds,mean,meanP025,meanP975,median,p05,p10,p90,p95,nBootstrap,bootstrapUnit
+task_service,1,1,1,1,1,shallow,shallow,mean_marginal_consistency,256,8,32,50,0.860390625,0.84929609375,0.869048046874999,0.908,0.581,0.684,0.992,1,2000,complete_response_scramble_block
+task_service,2,1,2,1,2,shallow,uniform,mean_marginal_consistency,256,8,32,50,0.621296875,0.614920703125,0.627296875,0.662,0.204,0.276,0.872,0.913,2000,complete_response_scramble_block
+task_service,3,1,3,1,3,shallow,intermediate,mean_marginal_consistency,256,8,32,50,0.69709375,0.692608984375,0.7014546875,0.744,0.34,0.414,0.914,0.952,2000,complete_response_scramble_block
+task_service,4,1,4,1,4,shallow,deep,mean_marginal_consistency,256,8,32,50,0.500890624999999,0.4952171875,0.506797265625,0.51,0.235,0.264,0.704,0.736,2000,complete_response_scramble_block
+task_service,5,1,5,1,5,shallow,deep_tail,mean_marginal_consistency,256,8,32,50,0.790265625,0.781951171875,0.797516796875,0.842,0.432,0.554,0.972,0.985,2000,complete_response_scramble_block
+task_service,6,2,1,2,1,uniform,shallow,mean_marginal_consistency,256,8,32,50,0.851828125,0.84398125,0.8596734375,0.872,0.63,0.706,0.984,0.992,2000,complete_response_scramble_block
+task_service,7,2,2,2,2,uniform,uniform,mean_marginal_consistency,256,8,32,50,0.778453125,0.771139843749999,0.786625,0.834,0.426,0.508,0.982,0.992,2000,complete_response_scramble_block
+task_service,8,2,3,2,3,uniform,intermediate,mean_marginal_consistency,256,8,32,50,0.79884375,0.791421484375,0.809125390624999,0.838,0.486,0.574,0.974,0.992,2000,complete_response_scramble_block
+task_service,9,2,4,2,4,uniform,deep,mean_marginal_consistency,256,8,32,50,0.72640625,0.71909375,0.733500390625,0.768,0.398,0.446,0.962,0.984,2000,complete_response_scramble_block
+task_service,10,2,5,2,5,uniform,deep_tail,mean_marginal_consistency,256,8,32,50,0.838375000000001,0.830484375,0.845940234375,0.866,0.59,0.676,0.984,0.992,2000,complete_response_scramble_block
+task_service,11,3,1,3,1,deep,shallow,mean_marginal_consistency,256,8,32,50,0.778906249999999,0.7751078125,0.782641015625,0.804,0.532,0.59,0.944,0.964,2000,complete_response_scramble_block
+task_service,12,3,2,3,2,deep,uniform,mean_marginal_consistency,256,8,32,50,0.860765625,0.8557171875,0.8660171875,0.87,0.667,0.72,0.984,0.992,2000,complete_response_scramble_block
+task_service,13,3,3,3,3,deep,intermediate,mean_marginal_consistency,256,8,32,50,0.862156250000001,0.85878125,0.865359375,0.868,0.678,0.732,0.972,0.988,2000,complete_response_scramble_block
+task_service,14,3,4,3,4,deep,deep,mean_marginal_consistency,256,8,32,50,0.844984375,0.83910703125,0.851156249999999,0.882,0.585,0.658,0.99,0.996,2000,complete_response_scramble_block
+task_service,15,3,5,3,5,deep,deep_tail,mean_marginal_consistency,256,8,32,50,0.789296875,0.781296875,0.794922265625,0.824,0.547,0.592,0.952,0.972,2000,complete_response_scramble_block
